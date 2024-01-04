@@ -6,7 +6,13 @@ import classNames from 'classnames/bind'
 const cx = classNames.bind(styles)
 
 function Video() {
-  return <Section>Video</Section>
+  return (
+    <Section className={cx('container')}>
+      <video autoPlay={true} muted={true} loop={true} controls={true}>
+        <source src="/assets/main.mp4" type="video/mp4" />
+      </video>
+    </Section>
+  )
 }
 
 export default Video
