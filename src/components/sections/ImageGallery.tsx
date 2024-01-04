@@ -1,6 +1,6 @@
 import Section from '@shared/Section'
 
-import styles from './Heading.module.scss'
+import styles from './ImageGallery.module.scss'
 import classNames from 'classnames/bind'
 
 const cx = classNames.bind(styles)
